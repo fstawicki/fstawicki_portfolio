@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
 export const StyledHeroPage = styled.div`
-    color: red;
+
     background-color: ${({theme}) => theme.bgcolor};
+    height: 100vh;
 
 
-    h1{
-        color: blue;
-    }
+    .introText{
 
-    .aaa{
-        color: yellow;
+        
+        .accent{
+            color: ${ ({theme}) => theme.accent };
+        }
+        
+        h1{
+            
+        }
+
+        p{
+            color: ${ ({theme}) => theme.greytext };
+        }
     }
 
 `
