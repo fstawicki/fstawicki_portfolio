@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { StyledAbout } from './styles/About.styled'
 
-import wave2 from '../assets/images/waves/wave2.svg';
 
 const About = () => {
   return (
@@ -13,19 +12,30 @@ const About = () => {
           <h3>Jobs:</h3>
           <ul>
             <li>
-              <p>CIRF - IT center of the Ministry of Finance</p>
+              <p className="name">CIRF - IT center of the Ministry of Finance</p>
               <p className="date"></p>
-              <p></p>
+              <p className="tasks">Main Tasks:</p>
+              <ul className="tasks_list">
+                <li></li>
+              </ul>
             </li>
             <li>
-              <p>Chamber of Tax Administration in Warsaw</p>
+              <p className="name">Chamber of Tax Administration in Warsaw</p>
               <p className="date"></p>
-              <p></p>
+              <p className="tasks">Main Tasks:</p>
+              <ul className="tasks_list">
+                <li></li>
+              </ul>
             </li>
             <li>
-              <p>Telit Management: Researcher</p>
+              <p className="name">Telit Management: Researcher</p>
               <p className="date"></p>
-              <p>Main responsibilities consisted of searching for job candidates for companies in IT fields, conducting entry job interwievs, expanding candidates' database</p>              
+              <p className="tasks">Main Tasks:</p>
+              <ul className="tasks_list">
+                <li>Searching for job candidates for companies in IT fields</li>
+                <li>Conducting entry job interwievs</li>
+                <li>Expanding candidates' database</li>
+              </ul>            
             </li>
           </ul>
         </div>
@@ -33,19 +43,18 @@ const About = () => {
           <h3>Studying:</h3>
           <ul>
             <li>
-              <p>SGGW - Computer Science - engeneer's degree</p>
+              <p className="name">SGGW - Computer Science - engeneer's degree</p>
               <p className="date"></p>
               <p></p>
             </li>
             <li>
-              <p>SGGW - Computer Science - master's degree</p>
+              <p className="name">SGGW - Computer Science - master's degree</p>
               <p className="date"></p>
               <p></p>
             </li>
           </ul>
         </div>
       </div>
-    <img className='waveIMG' src={wave2} role="presentation" alt=""/>
     </StyledAbout>
     </Fragment>
   )

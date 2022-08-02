@@ -18,7 +18,7 @@ export const StyledHeroPage = styled.div`
         z-index: 444;
 
         width: 50%;
-        margin: 0 0 3rem 10rem;
+        margin: 0 0 3rem 5rem;
 
         display: flex;
         flex-direction: column;
