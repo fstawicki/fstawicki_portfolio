@@ -89,6 +89,27 @@ export const StyledHeroPage = styled.div`
         
     }
 
+
+    @media (max-height: 1000px) {
+
+        .introText{
+            h1{
+                font-size: 4rem;
+            }
+
+            p{
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .accent{
+                font-size: 1.5rem;
+            }
+        }
+
+        
+        
+    }
     
 
 `
