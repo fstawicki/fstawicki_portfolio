@@ -15,7 +15,6 @@ export const StyledHeroPage = styled.div`
     }
 
     .container{
-
         z-index: 444;
 
         width: 50%;
