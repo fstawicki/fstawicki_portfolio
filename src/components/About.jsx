@@ -32,8 +32,16 @@ const About = () => {
         <div className="studyContainer">
           <h3>Studying:</h3>
           <ul>
-            <li>SGGW - Computer Science - engeneer's degree</li>
-            <li>SGGW - Computer Science - master's degree</li>
+            <li>
+              <p>SGGW - Computer Science - engeneer's degree</p>
+              <p className="date"></p>
+              <p></p>
+            </li>
+            <li>
+              <p>SGGW - Computer Science - master's degree</p>
+              <p className="date"></p>
+              <p></p>
+            </li>
           </ul>
         </div>
       </div>
