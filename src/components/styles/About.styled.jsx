@@ -19,17 +19,22 @@ export const StyledAbout = styled.div`
 
     .wrapper{
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         
     }
 
     .studyContainer,
     .jobsContainer{
-        background-color: white;
+        background-color: ${({theme}) => theme.bgcolor};
+        border: 1px solid ${({theme}) => theme.accent};
+        border-radius: 3%;
+        padding: 2rem 0.5rem;
     }
 
     .studyContainer *,
     .jobsContainer *{
-        color: ${({theme}) => theme.bgcolor};
+        color: white;
         font-size: 1.1rem;
     }
 
