@@ -22,5 +22,16 @@ export const StyledAbout = styled.div`
         
     }
 
+    .studyContainer,
+    .jobsContainer{
+        background-color: white;
+    }
+
+    .studyContainer *,
+    .jobsContainer *{
+        color: ${({theme}) => theme.bgcolor};
+        font-size: 1.1rem;
+    }
+
 
 `
