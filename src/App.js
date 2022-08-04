@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import theme from "./components/styles/Theme";
 
 import HeroPage from "./components/HeroPage";
+import Jobs from "./components/Jobs";
 import About from "./components/About";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         <HeroPage/>
         <About />
+        <Jobs />
       </div>
     </ThemeProvider>
   );
