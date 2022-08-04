@@ -13,8 +13,9 @@ const About = () => {
                 <li>Javascript</li>
                 <li>HTML</li>
                 <li>CSS, SCSS, Styled Components, CSS Modules</li>
-                <li></li>
-                <li></li>
+                <li>Git</li>
+                <li>Figma</li>
+                <li>Visual Studio Code, Atom</li>
             </ul>
         </div>
     </StyledAbout>
