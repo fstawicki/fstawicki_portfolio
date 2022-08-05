@@ -9,7 +9,7 @@ const HeroPage = () => {
       <StyledHeroPage>
           <div className="container">
             <div className="introText">
-              <p className='accent'>Hi, my name is</p>
+              <p className='accent'>Hi, 👋 my name is</p>
               <h1>Filip Stawicki.</h1>
               <p>Studying computer science, working as a system administrator. Currently, I am focused on learning React and becoming frontend developer.</p>
             </div>

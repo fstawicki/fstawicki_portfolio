@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import { StyledJobs } from './styles/Jobs.styled'
 
+import wave2 from '../assets/images/waves/wave2.svg';
 
 const Jobs = () => {
   return (
-    <Fragment>
-
     <StyledJobs>
+    <img className='wave2IMG' src={wave2} role="presentation" alt=""/>
       <div className="wrapper">
         <div className="jobsContainer">
           <h3>Jobs:</h3>
@@ -69,7 +69,6 @@ const Jobs = () => {
         </div>
       </div>
     </StyledJobs>
-    </Fragment>
   )
 }
 

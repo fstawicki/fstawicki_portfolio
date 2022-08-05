@@ -10,12 +10,12 @@ export const StyledJobs = styled.div`
         list-style: none;
     }
 
-    /* .waveIMG{
+    .wave2IMG{
         transform: rotate(180deg);
         position: absolute;
         top: 0;
-        z-index: -1;
-    } */
+        z-index: 144;
+    }
 
     .wrapper{
         display: flex;
