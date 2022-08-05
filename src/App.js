@@ -6,10 +6,12 @@ import theme from "./components/styles/Theme";
 import HeroPage from "./components/HeroPage";
 import Jobs from "./components/Jobs";
 import About from "./components/About";
+import GlobalStyles from "./components/styles/Global";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <div className="App">
         <HeroPage/>
         <About />

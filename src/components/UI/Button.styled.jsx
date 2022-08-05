@@ -20,6 +20,7 @@ a{
     margin-right: ${props => props.marginright};
 
     transition: 0.3s ease;
+    color: white;
 
     :hover{
         background-color: ${({ theme }) => theme.accent};
