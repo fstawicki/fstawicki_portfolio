@@ -5,6 +5,7 @@ export const StyledJobs = styled.div`
     background-color: ${({theme}) => theme.bgcolor};
 /* 
     position: relative; */
+
     
 
     ul{
@@ -20,9 +21,14 @@ export const StyledJobs = styled.div`
     .wrapper{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
 
     }
+
+    /*
+    .studyContainer{
+        margin-left: 2rem;
+    } */
 
     .studyContainer *,
     .jobsContainer *{
@@ -33,8 +39,7 @@ export const StyledJobs = styled.div`
     .studyContainer,
     .jobsContainer{
         background-color: ${({theme}) => theme.bgcolor};
-        border: 1px solid ${({theme}) => theme.accent};
-        border-radius: 3%;
+        /* border: 1px solid ${({theme}) => theme.bluewave}; */
         padding: 2rem 0.5rem;
 
         z-index: 100;
@@ -48,7 +53,8 @@ export const StyledJobs = styled.div`
 
         h3{
                 font-size: 3rem;
-                color: ${({theme}) => theme.accent};
+                /* color: ${({theme}) => theme.accent}; */
+                color: white;
         }
         
 
