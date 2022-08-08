@@ -7,8 +7,8 @@ const About = () => {
     <StyledAbout>
       <div className="infoText">
         <h2 className="aboutme">About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, excepturi officiis natus consectetur tenetur, aliquid nihil quidem, doloribus quasi error praesentium sed dolor ullam. Necessitatibus, iusto alias! Eveniet tenetur, veritatis cumque blanditiis odit unde, magni quod assumenda corporis ut recusandae dolor aliquid quia nulla cum suscipit velit quam tempora eligendi!</p>
-        <p className='accentcolor'>Here are technologies and tools I have worked with before:</p>
+        <p>I graduated from engineering studies in Computer Science at the Faculty of Applied Informatics and Mathematics at the Warsaw University of Life Sciences. Currently, I am continuing my studies in order to earn a master's degree. I have been working as an IT specialist for 3 years. My professional goal is to work as a Front-end Developer. I am interested in React, in which I am constantly improving.</p>
+        <p className='whitecolor'>Here are technologies and tools I have worked with before:</p>
         <div className="technologies">
             <ul className="technologiesList">
                 <li>👉 React</li>

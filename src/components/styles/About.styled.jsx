@@ -15,9 +15,10 @@ export const StyledAbout = styled.div`
         list-style:none
     }
 
-    .accentcolor{
-        color: ${({theme}) => theme.accent};
+    .whitecolor{
+        color: white;
         font-weight: bold;
+        margin-top: 2rem;
     }
 
 
