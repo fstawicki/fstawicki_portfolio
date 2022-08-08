@@ -12,6 +12,17 @@ export const StyledAbout = styled.div`
     
     padding-top: 3rem;
 
+    *{
+        ::-moz-selection { /* Code for Firefox */
+                color: ${({theme}) => theme.accent};
+                background: ${({theme}) => theme.bgcolor};
+            }
+            ::selection {
+                color: ${({theme}) => theme.accent};
+                background: ${({theme}) => theme.bgcolor};
+            }
+    }
+
     ul{
         list-style:none
     }

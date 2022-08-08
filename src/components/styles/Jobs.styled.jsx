@@ -6,6 +6,16 @@ export const StyledJobs = styled.div`
 /* 
     position: relative; */
 
+    *{
+        ::-moz-selection { /* Code for Firefox */
+            color: white;
+            background: ${ ({theme}) => theme.bluewave };
+        }
+        ::selection {
+            color: white;
+            background: ${ ({theme}) => theme.bluewave };
+        }
+    }
     
 
     ul{
