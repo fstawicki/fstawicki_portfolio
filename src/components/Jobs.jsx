@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledJobs } from './styles/Jobs.styled'
 
-import wave2 from '../assets/images/waves/wave2.svg';
+import wave2 from '../assets/waves/wave2.svg';
 
 import { FiChevronRight } from "react-icons/fi";
  

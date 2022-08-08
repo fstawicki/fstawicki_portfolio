@@ -2,7 +2,7 @@ import React from 'react'
 import { StyledHeroPage } from './styles/HeroPage.styled'
 import Button from './UI/Button'
 
-import wave from '../assets/images/waves/wave.svg';
+import wave from '../assets/waves/wave.svg';
 
 const HeroPage = () => {
   return (
