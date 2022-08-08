@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const StyledJobs = styled.div`
 
     background-color: ${({theme}) => theme.bgcolor};
-
-    position: relative;
+/* 
+    position: relative; */
     
 
     ul{
@@ -13,9 +13,8 @@ export const StyledJobs = styled.div`
 
     .wave2IMG{
         transform: rotate(180deg);
-        position: absolute;
-        top: 0;
-        z-index: 10;
+        /* position: absolute; */
+        /* position: absolute; */
     }
 
     .wrapper{
@@ -39,13 +38,19 @@ export const StyledJobs = styled.div`
         padding: 2rem 0.5rem;
 
         z-index: 100;
-        
+
+        .position,
+        .uni,
+        .tasks{
+            margin-bottom: 0.5rem;
+        }
+
 
         h3{
                 font-size: 3rem;
                 color: ${({theme}) => theme.accent};
-            }
         }
+        
 
         .jobsListItem{
             margin-top: 2rem;
@@ -58,5 +63,6 @@ export const StyledJobs = styled.div`
         .tasks{
             color: white;
         }
+    }
 
 `

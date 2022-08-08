@@ -10,6 +10,7 @@ export const StyledAbout = styled.div`
     align-items: center;
     letter-spacing: 0.5px;
     
+    padding-top: 3rem;
 
     ul{
         list-style:none
