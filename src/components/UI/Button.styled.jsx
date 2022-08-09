@@ -11,6 +11,7 @@ export const StyledButton = styled.button`
 a{
     display: block;
     text-decoration: none;
+    padding: ${props => props.padding};
     padding: 1.5rem;
     font-size: 1.2rem;
     border: 1px solid ${ ({theme}) => theme.accent };
@@ -18,6 +19,7 @@ a{
     background-color: transparent;
 
     margin-right: ${props => props.marginright};
+    margin: ${props => props.margin};
 
     transition: 0.3s ease;
     color: white;

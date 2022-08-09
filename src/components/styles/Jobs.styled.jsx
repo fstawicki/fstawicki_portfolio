@@ -50,7 +50,7 @@ export const StyledJobs = styled.div`
     .jobsContainer{
         background-color: ${({theme}) => theme.bgcolor};
         /* border: 1px solid ${({theme}) => theme.bluewave}; */
-        padding: 2rem 0.5rem;
+        /* padding: 2rem 0.5rem; */
 
         z-index: 100;
 

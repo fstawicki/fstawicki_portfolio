@@ -3,7 +3,7 @@ import { StyledButton } from './Button.styled'
 
 const Button = (props) => {
   return (
-    <StyledButton marginright={props.marginright}>
+    <StyledButton margin={props.margin}>
         <a href={props.link}>
             { props.buttonText }
         </a>

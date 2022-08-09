@@ -33,13 +33,17 @@ export const StyledProjects = styled.div`
         }
 
         a{
+            padding: 1rem;
+        }
+
+        /* a{
             text-decoration: none;
             color: ${({theme}) => theme.accent};
         }
 
         a:hover{
             text-decoration: underline;
-        }
+        } */
 
     }
     
