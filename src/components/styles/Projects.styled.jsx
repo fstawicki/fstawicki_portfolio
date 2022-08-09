@@ -3,11 +3,30 @@ import styled from "styled-components";
 export const StyledProjects = styled.div`
     
     background-color: ${({theme}) => theme.bgcolor};
-    
     color: white;
 
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "PageTitle PageTitle"
+        "card card2"
+    ;
+
+    .PageTitle{
+        grid-area: PageTitle;
+    }
+
+    .grid2{
+        grid-area: card2;
+    } */
+
     .card{
+
+        grid-area: card;
+
         width: 300px;
+        border: 1px solid red;
 
 
         .title{
@@ -15,13 +34,15 @@ export const StyledProjects = styled.div`
             text-align: center;
             letter-spacing: 0.1px;
             font-weight: bold;
-            color: ${({theme}) => theme.bluewave};
+            color: white;
 
             padding: 1rem 0;
         }
 
         .description{
-            padding-bottom: 1rem;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            color: ${({theme}) => theme.greytext};;
 
         }
 

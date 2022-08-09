@@ -14,7 +14,7 @@ const HeroPage = () => {
               <p>Studying computer science, working as a system administrator. Currently, I am focused on learning React and becoming frontend developer.</p>
             </div>
             <div className="buttons">
-              <Button margin={'0 2rem 0 0'} link={'#'} buttonText={'Contact me'} />
+              <Button margin={'2rem 2rem 0 0'} link={'#'} buttonText={'Contact me'} />
               <Button link={'#'} buttonText={'Download CV'} />
             </div>
           </div>

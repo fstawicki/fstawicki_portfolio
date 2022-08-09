@@ -6,8 +6,6 @@ export const StyledButton = styled.button`
     background-color: transparent;
     display: block;
 
-    margin-top: 2rem;
-
 a{
     display: block;
     text-decoration: none;
@@ -18,7 +16,7 @@ a{
     border-radius: 4%;
     background-color: transparent;
 
-    margin-right: ${props => props.marginright};
+    margin-top: 2rem;
     margin: ${props => props.margin};
 
     transition: 0.3s ease;
