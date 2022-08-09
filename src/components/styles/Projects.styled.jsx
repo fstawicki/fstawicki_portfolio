@@ -5,25 +5,24 @@ export const StyledProjects = styled.div`
     background-color: ${({theme}) => theme.bgcolor};
     color: white;
 
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-        "PageTitle PageTitle"
-        "card card2"
-    ;
+    .cardsWrapper{
 
-    .PageTitle{
-        grid-area: PageTitle;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "PageTitle PageTitle PageTitle"
+            "card2 card3 card1"
+        ;
+    
+        .PageTitle{
+            grid-area: PageTitle;
+        }
+    
     }
-
-    .grid2{
-        grid-area: card2;
-    } */
 
     .card{
 
-        grid-area: card;
+        grid-area: ${props => props.area};
 
         width: 300px;
         border: 1px solid red;

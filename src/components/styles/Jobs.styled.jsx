@@ -9,11 +9,11 @@ export const StyledJobs = styled.div`
     *{
         ::-moz-selection { /* Code for Firefox */
             color: white;
-            background: ${ ({theme}) => theme.bluewave };
+            background: ${ ({theme}) => theme.accent };
         }
         ::selection {
             color: white;
-            background: ${ ({theme}) => theme.bluewave };
+            background: ${ ({theme}) => theme.accent };
         }
     }
     
