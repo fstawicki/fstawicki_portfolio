@@ -55,6 +55,10 @@ export const StyledAbout = styled.div`
     }
     
 
+    .myImg{
+        width: 250px;
+        height: 300px;
+    }
 
 
 

@@ -9,6 +9,11 @@ export const StyledCard = styled.a.attrs({})`
     text-decoration: none;
        
     border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     :hover{
         cursor: pointer;
@@ -55,8 +60,11 @@ export const StyledCard = styled.a.attrs({})`
 
         
     .projectImage{
-    width: 300px;
-    height: 300px;
+        width: 100%;
+        height: 230px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 

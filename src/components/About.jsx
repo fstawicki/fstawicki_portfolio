@@ -1,6 +1,8 @@
 import React from 'react'
 import { StyledAbout } from './styles/About.styled'
 
+import imageFilip from '../assets/images/Filip_usmiech.jpg';
+
 
 const About = () => {
   return (
@@ -22,7 +24,7 @@ const About = () => {
         </div>
       </div>
       <div className="imageDiv">
-        <img src="" alt="Filip Stawicki" className="myImg" />
+        <img src={imageFilip} alt="Filip Stawicki" className="myImg" />
       </div>
     </StyledAbout>
   )
