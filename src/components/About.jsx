@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledAbout } from './styles/About.styled'
 
-import imageFilip from '../assets/images/Filip_usmiech.jpg';
+import imageFilip from '../assets/images/Filip.jpg';
 
 
 const About = () => {

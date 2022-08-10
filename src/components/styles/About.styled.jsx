@@ -5,9 +5,12 @@ export const StyledAbout = styled.div`
     background-color: ${({theme}) => theme.bluewave};
     color: ${({theme}) => theme.bgcolor};
 
+
+    
+
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-evenly;
     letter-spacing: 0.5px;
     
     padding-top: 3rem;
@@ -56,8 +59,11 @@ export const StyledAbout = styled.div`
     
 
     .myImg{
-        width: 250px;
-        height: 300px;
+        width: 285px;
+        height: 380px;
+
+        border-radius: 5%;
+        box-shadow: 0 0 8px 8px rgba(0,0,0,0.3);
     }
 
 
