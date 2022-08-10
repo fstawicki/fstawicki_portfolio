@@ -2,22 +2,17 @@ import styled from "styled-components";
 
 export const StyledCard = styled.a.attrs({})`
 
+    display: block;
+    grid-area: ${props => props.area};
+    width: 300px;
+
+    text-decoration: none;
+       
+    border: 1px solid red;
+    
     :hover{
         cursor: pointer;
     }
-
-
-
-
-    text-decoration: none;
-
-
-
-    grid-area: ${props => props.area};
-
-    width: 300px;
-    border: 1px solid red;
-
 
     grid-area: ${props => props.area};
 

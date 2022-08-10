@@ -7,6 +7,8 @@ export const StyledProjects = styled.div`
 
     .cardsWrapper{
 
+        /* margin: 0 auto;
+        width: 70%; */
         display: grid;
         grid-template-areas:
         "card3 card1 card2";
