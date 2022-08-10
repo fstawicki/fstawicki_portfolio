@@ -4,12 +4,25 @@ export const StyledCard = styled.a.attrs({})`
 
     display: block;
     grid-area: ${props => props.area};
-    width: 300px;
+    width: 350px;
 
     text-decoration: none;
        
-    border: 1px solid red;
+    border-bottom: 1px solid white;
     border-radius: 3%;
+    background-color: white;
+    /*
+    rgba(0, 0, 0, 0.45)
+    */
+
+    transition: transform 300ms;
+
+    box-shadow: 0 0 0.2rem 0.2rem ${({theme}) => theme.bluewave};
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+    :hover{
+        transform: scale(1.03);
+    }
 
     display: flex;
     flex-direction: column;
@@ -33,7 +46,7 @@ export const StyledCard = styled.a.attrs({})`
         font-size: 1.5rem;
         letter-spacing: 0.1px;
         font-weight: bold;
-        color: white;
+        color: ${({theme}) => theme.accent};
 
         margin: 1.5rem 0 1rem 0;
     }
@@ -68,12 +81,22 @@ export const StyledCard = styled.a.attrs({})`
 
         
     .projectImage{
-        width: 100%;
+        width: 350px;
         height: 230px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        border-radius: 5%;
+        border-radius: 3%;
+        
+    }
+
+    a{
+        background-color: ${({theme}) => theme.accent};
+
+        :hover{
+            background-color: ${({theme}) => theme.bluewave};
+            border-color: ${({theme}) => theme.bluewave};
+        }
     }
 
 

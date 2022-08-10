@@ -10,8 +10,11 @@ export const StyledProjects = styled.div`
         /* margin: 0 auto;
         width: 70%; */
         display: grid;
+        display: grid;
+        justify-items: center;
+        max-width: 100vw;
         grid-template-areas:
-        ". . card1 card2 card3 . .";
+        "card1 card2 card3";
     
         .PageTitle{
             grid-area: PageTitle;
