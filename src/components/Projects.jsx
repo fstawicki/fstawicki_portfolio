@@ -20,7 +20,7 @@ const Projects = (props) => {
             title={'Portfolio Website'}
             image={imagePortfolio}
             alt={'Portfolio website demo'}
-            description={'My portfolio website.'}
+            description={'My portfolio website - You are experiencing it right now ;) Here You can see my work, get to know me and contact me.'}
             area={'card1'}
           />
           <Card 

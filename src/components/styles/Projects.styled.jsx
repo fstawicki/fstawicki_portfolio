@@ -11,7 +11,7 @@ export const StyledProjects = styled.div`
         width: 70%; */
         display: grid;
         grid-template-areas:
-        "card3 card1 card2";
+        ". . card1 card2 card3 . .";
     
         .PageTitle{
             grid-area: PageTitle;

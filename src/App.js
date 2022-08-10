@@ -8,6 +8,7 @@ import HeroPage from "./components/HeroPage";
 import Jobs from "./components/Jobs";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Jobs />
         <Projects />
+        <Contact />
       </div>
     </ThemeProvider>
   );

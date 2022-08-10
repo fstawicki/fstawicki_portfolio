@@ -9,11 +9,11 @@ export const StyledCard = styled.a.attrs({})`
     text-decoration: none;
        
     border: 1px solid red;
+    border-radius: 3%;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     
     :hover{
         cursor: pointer;
@@ -21,19 +21,27 @@ export const StyledCard = styled.a.attrs({})`
 
     grid-area: ${props => props.area};
 
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
     .title{
         font-size: 1.5rem;
-        text-align: center;
         letter-spacing: 0.1px;
         font-weight: bold;
         color: white;
 
-        padding: 1rem 0;
+        margin: 1.5rem 0 1rem 0;
     }
 
     .description{
-        text-align: center;
-        margin-bottom: 0.5rem;
+        padding: 0 1rem 1rem 1rem;
+
+        text-align: left;
         color: ${({theme}) => theme.greytext};;
 
     }
@@ -65,6 +73,7 @@ export const StyledCard = styled.a.attrs({})`
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 5%;
     }
 
 
