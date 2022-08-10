@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const StyledCard = styled.a.attrs({})`
 
+justify-self: center;
+
     display: block;
     grid-area: ${props => props.area};
     width: 350px;
 
     text-decoration: none;
-       
+    
+    border: 1px solid ${({theme}) => theme.bgcolor};
     border-bottom: 1px solid white;
     border-radius: 3%;
     background-color: white;
@@ -81,7 +84,7 @@ export const StyledCard = styled.a.attrs({})`
 
         
     .projectImage{
-        width: 350px;
+        width: 100%;
         height: 230px;
         background-position: center;
         background-repeat: no-repeat;

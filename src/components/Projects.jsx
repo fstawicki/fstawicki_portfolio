@@ -37,6 +37,13 @@ const Projects = (props) => {
             description={'Website displays various information about cocktails using CocktailDB API. You can search drinks by their name or by searching a random drink.'}
             area={'card3'}
           />
+          <Card 
+            title={'On The Rocks'}
+            image={imageCocktail}
+            alt={'On The Rocks demo'}
+            description={'Website displays various information about cocktails using CocktailDB API. You can search drinks by their name or by searching a random drink.'}
+            area={'card4'}
+          />
         </div>
     </StyledProjects>
   )
