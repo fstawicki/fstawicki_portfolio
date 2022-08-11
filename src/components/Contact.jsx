@@ -1,6 +1,12 @@
 import React from 'react'
 import { StyledContact } from './styles/Contact.styled'
 
+import Button from '../components/UI/Button'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
+
+
 const Contact = () => {
   return (
     <StyledContact>
@@ -21,10 +27,12 @@ const Contact = () => {
             <ul className="links">
               <li><span className='color-accent'>Telephone: </span>507483701</li>
               <li><span className='color-accent'>Email: </span>stawicki.filip1@gmail.com</li>
-              <li><span className='color-accent'>Github: </span><a href="https://github.com/fstawicki">fstawicki</a></li>
+              <li><span className='color-accent'>LinkedIn: </span><a href="https://www.linkedin.com/in/f-stawicki/"><FaLinkedin /> Filip Stawicki</a></li>
+              <li><span className='color-accent'>Github: </span><a href="https://github.com/fstawicki"><FaGithub /> fstawicki</a></li>
             </ul>
           </div>
         </div>
+        <Button link={'#'} buttonText={'Download CV'} margin={'3rem 0 0 0'} />
       </div>
     </StyledContact>
   )
