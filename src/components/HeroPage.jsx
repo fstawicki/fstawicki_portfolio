@@ -15,7 +15,7 @@ const HeroPage = () => {
             </div>
             <div className="buttons">
               <Button margin={'2rem 2rem 0 0'} link={'#'} buttonText={'Contact me'} />
-              <Button link={'#'} buttonText={'Download CV'} />
+              <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} />
             </div>
           </div>
         <img className='waveIMG' src={wave} role="presentation" alt=""/>

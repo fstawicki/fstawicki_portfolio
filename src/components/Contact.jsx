@@ -5,13 +5,11 @@ import Button from '../components/UI/Button'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-
-
 const Contact = () => {
   return (
     <StyledContact>
       <h3 className='color-white'>Get in touch!</h3>
-      <div className="wrapper">
+      <div className="wrapper" name='contact'>
         <div className="flexDiv">
           <div className="contactDiv">
             <p className='color-white'>Personal Data</p>
@@ -32,7 +30,7 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-        <Button link={'#'} buttonText={'Download CV'} margin={'3rem 0 0 0'} />
+        <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} margin={'3rem 0 0 0'} />
       </div>
     </StyledContact>
   )

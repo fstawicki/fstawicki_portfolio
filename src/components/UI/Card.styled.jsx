@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledCard = styled.a.attrs({})`
+export const StyledCard = styled.div`
 
 justify-self: center;
 
@@ -85,7 +85,7 @@ justify-self: center;
         
     .projectImage{
         width: 100%;
-        height: 230px;
+        height: 210px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

@@ -18,8 +18,6 @@ export const StyledFooter = styled.div`
         flex-direction: column;
 
         width: 100%;
-
-
         position: absolute;
         bottom: 0;
 
@@ -39,15 +37,27 @@ export const StyledFooter = styled.div`
         color: ${({ theme }) => theme.bgcolor};
     }
 
-    a{
+    button{
 
-        margin: 0 2rem 2rem auto;
+        margin: 0 10rem 2rem auto;
+        font-size: 1.1rem;
         color: white;
         text-align: right;
-
         display: block;
-
         text-decoration: none;
+
+        padding: 1rem;
+        background-color: ${({ theme }) => theme.bluewave};
+        border: 1px solid ${({ theme }) => theme.bluewave};
+        border-radius: 5%;
+
+        transition: 0.3s ease;
+
+        :hover{
+            background-color: ${({ theme }) => theme.bgcolor};
+            border: 1px solid ${({ theme }) => theme.bgcolor};
+            cursor: pointer;
+        }
 
     }
 
