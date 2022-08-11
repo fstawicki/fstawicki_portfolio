@@ -45,7 +45,7 @@ h3{
 .flexDiv{
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
 
     p{
         text-align: center;
@@ -59,6 +59,8 @@ h3{
         align-items: center;
         margin-bottom: 0.5rem;
         color: ${({theme}) => theme.greytext};
+
+        font-size: 1.1rem;
 
         a{
             text-decoration: none;

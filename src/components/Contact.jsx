@@ -27,8 +27,8 @@ const Contact = () => {
             <ul className="links">
               <li><span className='color-accent'>Telephone: </span>507483701</li>
               <li><span className='color-accent'>Email: </span>stawicki.filip1@gmail.com</li>
-              <li><span className='color-accent'>LinkedIn: </span><a href="https://www.linkedin.com/in/f-stawicki/"><FaLinkedin /> Filip Stawicki</a></li>
-              <li><span className='color-accent'>Github: </span><a href="https://github.com/fstawicki"><FaGithub /> fstawicki</a></li>
+              <li><span className='color-accent'>LinkedIn: </span><a href="https://www.linkedin.com/in/f-stawicki/">Filip Stawicki <FaLinkedin /></a></li>
+              <li><span className='color-accent'>Github: </span><a href="https://github.com/fstawicki">fstawicki <FaGithub /></a></li>
             </ul>
           </div>
         </div>
