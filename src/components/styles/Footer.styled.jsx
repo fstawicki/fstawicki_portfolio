@@ -2,53 +2,53 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.div`
     
-    background-color: ${({ theme }) => theme.accent};
+    background-color: ${({ theme }) => theme.bgcolor};
 
     position: relative;
 
-    
-
     img{
     }
-/* 
-    .sign{
+
+
+    .wrapper{
+
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 2rem;
+        flex-direction: column;
+
+        width: 100%;
+
 
         position: absolute;
-        bottom: 1rem;
-        right: 0;
+        bottom: 0;
 
-        width: 50%;
-        margin: 0 0 0 auto;
+        background-color: ${({ theme }) => theme.accent};
 
-    } */
+        
+    }
 
     p{
         font-size: 1.2rem;
         color: white;
         text-align: center;
 
-        position: absolute;
-        bottom: 0;
         display: block;
         width: 100%;
 
-        background-color: ${({ theme }) => theme.accent};
-        color: ${({ theme }) => theme.greytext};
-        z-index: 444;
+        color: ${({ theme }) => theme.bgcolor};
     }
 
     a{
 
-        padding-right: 2rem;
+        margin: 0 2rem 2rem auto;
         color: white;
         text-align: right;
 
-        position: absolute;
-        bottom: 0;
+        display: block;
+
+        text-decoration: none;
+
     }
 
 
