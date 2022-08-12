@@ -5,7 +5,20 @@ import Button from '../components/UI/Button'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+import {animateScroll as scroll} from 'react-scroll';
+import { FaRegArrowAltCircleUp } from "react-icons/fa";
+
+
+
+import footerwave from '../assets/waves/bottomwave.svg';
+
 const Contact = () => {
+
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  }
+  
+
   return (
     <StyledContact>
       <h3 className='color-white'>Get in touch!</h3>
@@ -31,7 +44,9 @@ const Contact = () => {
           </div>
         </div>
         <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} margin={'3rem 0 0 0'} />
+        <button className='btnToTop' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
       </div>
+      <img className='footerwave' role='presentation' src={footerwave} alt="" />
     </StyledContact>
   )
 }

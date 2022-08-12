@@ -30,12 +30,12 @@ export const StyledProjects = styled.div`
 
         @media (max-width: 850px){
             grid-template-areas:
-                "card1" 
-                "card2" 
-                "card3" 
-                "card4";
-            grid-template-columns: 1fr;
-            grid-row-gap: 1rem;
+                ". card1 ." 
+                ". card2 ." 
+                ". card3 ." 
+                ". card4 .";
+            grid-template-columns: auto 350px auto;
+            grid-row-gap: 2rem;
             grid-column-gap: 0;
             
         }

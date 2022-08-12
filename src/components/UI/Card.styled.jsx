@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledCard = styled.div`
 
-justify-self: center;
+    justify-self: center;
 
     display: block;
     grid-area: ${props => props.area};
@@ -22,6 +22,10 @@ justify-self: center;
 
     box-shadow: 0 0 0.2rem 0.2rem ${({theme}) => theme.bluewave};
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+    @media (max-width: 400px){
+        width: 300px;
+    }
 
     :hover{
         transform: scale(1.03);

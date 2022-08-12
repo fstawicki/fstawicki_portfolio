@@ -117,10 +117,27 @@ h3{
 }
 
 
+    .btnToTop{
 
-/* .linksDiv{
-    margin-left: 10rem;
-} */
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+
+        margin-top: 3rem;
+
+        padding: 1.5rem;
+        background-color: transparent;
+        border: 1px solid ${({ theme }) => theme.accent};
+        border-radius: 5%;
+
+        transition: 0.3s ease;
+
+        :hover{
+            background-color: ${({ theme }) => theme.accent};
+            cursor: pointer;
+        }
+
+    }
 
 
 
