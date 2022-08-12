@@ -9,6 +9,7 @@ export const StyledHeroPage = styled.div`
     justify-content: center;
     align-items: left;
 
+    position: relative;
 
     .btnMarginLeft a{
         margin-left: 2rem;
@@ -24,6 +25,16 @@ export const StyledHeroPage = styled.div`
         flex-direction: column;
         justify-content: start;
         align-items: left;
+
+        @media (max-width: 900px){
+            width: 70%;
+        }
+
+        @media (max-width: 650px){
+            width: 100%;
+            margin: 0;
+            padding: 0 2rem;
+        }
 
     }
 
