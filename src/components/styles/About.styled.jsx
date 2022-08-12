@@ -44,16 +44,30 @@ export const StyledAbout = styled.div`
             color: white;
             font-size: 3rem;
             margin-bottom: 2rem;
+
+
+            @media (max-width:450px){
+                font-size: 2.5rem;
+            }
         }
 
         p{
             margin-bottom: 1rem;
             font-size: 1.2rem;
+
+            @media (max-width:450px){
+                font-size: 1.1rem;
+            }
         }
 
         .technologies{
             font-size: 1.1rem;
             margin-left: 2rem;
+
+            @media (max-width:450px){
+                font-size: 1rem;
+                margin-left: 0;
+            }
         }
     }
     
@@ -64,6 +78,36 @@ export const StyledAbout = styled.div`
 
         border-radius: 5%;
         box-shadow: 0 0 8px 8px rgba(0,0,0,0.3);
+    }
+
+
+    @media (max-width: 750px){
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .imageDiv{
+            display: none;
+        }
+
+        .infoText{
+            width: 100%;
+            padding: 0 3rem;
+
+
+            @media (max-width: 450px){
+                padding: 0 1rem;
+            }
+
+        }
+    }
+
+
+    @media (max-width: 450px){
+
+
+
     }
 
 

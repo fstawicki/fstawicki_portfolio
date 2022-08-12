@@ -33,6 +33,20 @@ export const StyledJobs = styled.div`
         justify-content: space-evenly;
         align-items: flex-start;
 
+
+        @media (max-width: 950px){
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 1rem;
+            width: 100%;
+
+            .studyContainer{
+                margin-top: 3rem;
+                text-align: left;
+            }
+        }
+
     }
 
     /*
