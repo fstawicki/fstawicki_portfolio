@@ -32,6 +32,14 @@ h3{
     font-size: 3rem;
     text-align: center;
     padding: 8rem 0;
+
+    @media (max-width: 950px){
+        padding: 6rem 0;
+    }
+
+    @media (max-width: 350px){
+        font-size: 2.5rem;
+    }
 }
 
 .wrapper{
@@ -40,45 +48,74 @@ h3{
     align-items: center;
 
     flex-direction: column;
-}
 
-.flexDiv{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
+    @media (max-width: 1450px){
 
-    p{
-        text-align: center;
-        margin-bottom: 2rem;
-        font-size: 1.5rem;
     }
-
-    li{
+    
+    .flexDiv{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0.5rem;
-        color: ${({theme}) => theme.greytext};
+        width: 50%;
 
-        font-size: 1.1rem;
+        @media (max-width: 1450px){
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        @media (max-width: 850px){
+            flex-direction: column;
+            padding: 0 1rem;
+            width: 70%;
 
-        a{
-            text-decoration: none;
-            color: ${({theme}) => theme.bluewave};
-            transition: 0.2s ease;
-        
-            :hover{
-                color: ${({theme}) => theme.accent};
+
+            .linksDiv{
+                margin-top: 2rem;
             }
-        
         }
 
-        span{
-            margin-right: 2rem;
+        @media (max-width: 650px){
+            width: 100%;
         }
+    
+        p{
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
 
+        }
+    
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            color: ${({theme}) => theme.greytext};
+    
+            font-size: 1.1rem;
+
+            @media (max-width: 650px){
+                font-size: 1rem;
+            }
+    
+            a{
+                text-decoration: none;
+                color: ${({theme}) => theme.bluewave};
+                transition: 0.2s ease;
+            
+                :hover{
+                    color: ${({theme}) => theme.accent};
+                }
+            
+            }
+    
+            span{
+                margin-right: 2rem;
+            }
+    
+        }
     }
 }
+
 
 
 /* .linksDiv{
