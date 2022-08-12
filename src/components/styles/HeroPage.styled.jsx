@@ -34,6 +34,12 @@ export const StyledHeroPage = styled.div`
             width: 100%;
             margin: 0;
             padding: 0 2rem;
+
+        }
+
+        @media (max-width: 450px){
+            padding: 0 1rem;
+
         }
 
     }
@@ -64,11 +70,19 @@ export const StyledHeroPage = styled.div`
         h1{
             font-size: 5rem;
             color: white;
+
+            @media (max-width: 650px){
+                font-size: 3rem;
+            }
         }
         
         p{
             color: ${ ({theme}) => theme.greytext };
             font-size: 2.5rem;
+
+            @media (max-width: 650px){
+                font-size: 1.8rem;
+            }
         }
 
         h1, p{
@@ -92,11 +106,6 @@ export const StyledHeroPage = styled.div`
     .buttons{
 
         display: flex;
-
-        a{
-            
-        }
-
         
     }
 
@@ -117,9 +126,14 @@ export const StyledHeroPage = styled.div`
                 font-size: 1.5rem;
             }
         }
+    }
 
-        
-        
+    @media (max-width: 400px){
+        .buttons{
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
     }
     
 

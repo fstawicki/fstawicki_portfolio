@@ -27,6 +27,13 @@ a{
     }
 }
 
+@media (max-width: 400px){
+    a{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
 
 
 `
