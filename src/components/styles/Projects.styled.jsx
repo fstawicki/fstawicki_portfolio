@@ -42,11 +42,22 @@ export const StyledProjects = styled.div`
     
     }
 
+    a{
+        background-color: ${ ({theme}) => theme.accent };
+
+        :hover{
+            background-color: ${ ({theme}) => theme.bluewave };
+        }
+    }
     
     h3{
         font-size: 3rem;
         text-align: center;
-        padding: 8rem 0 8rem 0;
+        padding: 8rem 0;
+
+        @media (max-width: 950px){
+            padding: 6rem 0;
+        }
 
         ::-moz-selection { /* Code for Firefox */
             color: white;

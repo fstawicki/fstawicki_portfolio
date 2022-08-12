@@ -58,14 +58,14 @@ const Jobs = () => {
             <li className='jobsListItem'>
               <p className="date red">2021 - in progress</p>
               <p className="uni red ">SGGW Warsaw University of Life Sciences</p>
-              <p>Computer Science</p>
-              <p>Master's Degree</p>
+              <p><FiChevronRight /> Computer Science</p>
+              <p><FiChevronRight /> Master's Degree</p>
             </li>
             <li className='jobsListItem'>
               <p className="date red">2017 - 2021</p>
               <p className="uni red">SGGW Warsaw University of Life Sciences</p>
-              <p>Computer Science</p>
-              <p>Obtained Title: Engineer</p>
+              <p><FiChevronRight /> Computer Science</p>
+              <p><FiChevronRight /> Obtained Title: Engineer</p>
             </li>
           </ul>
         </div>
