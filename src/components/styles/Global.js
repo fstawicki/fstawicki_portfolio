@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
+
+
 const GlobalStyles = createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 *{
   margin: 0;
@@ -11,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
 
 html{
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 body{
