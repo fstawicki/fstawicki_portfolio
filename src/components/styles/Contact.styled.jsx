@@ -137,6 +137,17 @@ h3{
             cursor: pointer;
         }
 
+        :active{
+            text-decoration: none;
+            background-color: transparent;
+            border: 1px solid ${({ theme }) => theme.accent}; ;
+        }
+
+        @media (max-width: 400px){
+            padding: 1rem;
+            font-size: 1rem;
+        }
+
     }
 
 

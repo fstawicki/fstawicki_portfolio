@@ -10,7 +10,7 @@ import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
 
 
-import footerwave from '../assets/waves/bottomwave.svg';
+import bottomwave from '../assets/waves/bottomwave.svg';
 
 const Contact = () => {
 
@@ -46,7 +46,7 @@ const Contact = () => {
         <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} margin={'3rem 0 0 0'} />
         <button className='btnToTop' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
       </div>
-      <img className='footerwave' role='presentation' src={footerwave} alt="" />
+      <img className='footerwave' role='presentation' src={bottomwave} alt="" />
     </StyledContact>
   )
 }
