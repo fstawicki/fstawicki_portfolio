@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <StyledContact>
-      <h3 className='color-white'>Get in touch!</h3>
+      <h3 className='color-white' name='contact' id='contact'>Get in touch!</h3>
       <div className="wrapper" name='contact'>
         <div className="flexDiv">
           <div className="contactDiv">

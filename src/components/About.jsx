@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyledAbout } from './styles/About.styled'
+import React from 'react';
+import { StyledAbout } from './styles/About.styled';
 
 import imageFilip from '../assets/images/Filip.jpg';
 

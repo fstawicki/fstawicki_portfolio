@@ -2,6 +2,9 @@ import React from 'react';
 import { StyledHeroPage } from './styles/HeroPage.styled';
 import Button from './UI/Button';
 
+import { Link } from 'react-scroll'
+
+
 import wave from '../assets/waves/wave.svg';
 
 const HeroPage = () => {
@@ -14,7 +17,15 @@ const HeroPage = () => {
             <p>Studying computer science, working as a system administrator. Currently, I am focused on learning React and becoming frontend developer.</p>
           </div>
           <div className="buttons">
-            <Button margin={'2rem 2rem 0 0'} link={'#'} buttonText={'Contact me'} />
+            <Link 
+              className='scrolllink'
+              to="contact" 
+              spy={true} 
+              smooth={true} 
+              offset={50} 
+              duration={800}>
+                Contact Me
+            </Link>
             <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} />
           </div>
         </div>

@@ -7,11 +7,13 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
 
+  
 }
 
 html{
   font-size: 16px;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  
 }
 
 body{

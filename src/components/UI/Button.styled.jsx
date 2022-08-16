@@ -12,6 +12,7 @@ a{
     padding: ${props => props.padding};
     padding: 1.5rem;
     font-size: 1.2rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     border: 1px solid ${ ({theme}) => theme.accent };
     border-radius: 4%;
     background-color: transparent;
