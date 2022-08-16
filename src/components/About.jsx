@@ -3,7 +3,6 @@ import { StyledAbout } from './styles/About.styled'
 
 import imageFilip from '../assets/images/Filip.jpg';
 
-
 const About = () => {
   return (
     <StyledAbout>

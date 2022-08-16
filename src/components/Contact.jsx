@@ -5,10 +5,8 @@ import Button from '../components/UI/Button'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-import {animateScroll as scroll} from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
-
-
 
 import bottomwave from '../assets/waves/bottomwave.svg';
 
@@ -17,7 +15,6 @@ const Contact = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   }
-  
 
   return (
     <StyledContact>

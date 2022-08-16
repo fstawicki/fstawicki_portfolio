@@ -5,9 +5,6 @@ export const StyledAbout = styled.div`
     background-color: ${({theme}) => theme.bluewave};
     color: ${({theme}) => theme.bgcolor};
 
-
-    
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -102,15 +99,5 @@ export const StyledAbout = styled.div`
 
         }
     }
-
-
-    @media (max-width: 450px){
-
-
-
-    }
-
-
-
 
 `

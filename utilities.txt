@@ -1,6 +1,0 @@
-dark background
-#0c1c2c
-#071e3d
-
-grey dark 1
-#5e768d 
