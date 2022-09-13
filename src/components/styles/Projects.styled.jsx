@@ -13,7 +13,7 @@ export const StyledProjects = styled.div`
         grid-column-gap: 2rem;
         grid-template-areas:
         ". card1 card2 card3 ."
-        ". card4 . . .";
+        ". card4 card5 card6 .";
     
         .PageTitle{
             grid-area: PageTitle;
@@ -22,7 +22,8 @@ export const StyledProjects = styled.div`
         @media (max-width: 1250px){
             grid-template-areas:
             ". card1 card2 ." 
-            ". card3 card4 .";
+            ". card3 card4 ."
+            ". card5 card6 .";
             grid-template-columns: auto 350px 350px auto;
             grid-row-gap: 2rem;
             grid-column-gap: 2rem;
@@ -33,7 +34,9 @@ export const StyledProjects = styled.div`
                 ". card1 ." 
                 ". card2 ." 
                 ". card3 ." 
-                ". card4 .";
+                ". card4 ."
+                ". card5 ."
+                ". card6 .";
             grid-template-columns: auto 350px auto;
             grid-row-gap: 2rem;
             grid-column-gap: 0;
