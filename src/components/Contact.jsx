@@ -26,7 +26,7 @@ const Contact = () => {
             <ul>
               <li><span className='color-accent'>Name: </span>Filip Stawicki</li>
               <li><span className='color-accent'>Date of birth: </span>18.10.1998</li>
-              <li><span className='color-accent'>Address: </span>Ożarów Mazowiecki</li>
+              <li><span className='color-accent'>Address: </span>Warszawa / Ożarów Mazowiecki</li>
               <li><span className='color-accent'>Ability to work: </span>After 1 month period of notice</li>
             </ul>
           </div>
@@ -40,7 +40,8 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-        <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} margin={'3rem 0 0 0'} />
+        <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV ENG'} margin={'3rem 0 0 0'} />
+        <Button link={'../assets/CV/STAWICKI_FILIP_CV.pdf'} download={true} buttonText={'Download CV PL'} margin={'3rem 0 0 0'} />
         <button className='btnToTop' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
       </div>
       <img className='footerwave' role='presentation' src={bottomwave} alt="" />

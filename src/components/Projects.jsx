@@ -43,9 +43,9 @@ const Projects = (props) => {
             github={'https://github.com/fstawicki/OnTheRocks'}
           />
           <Card 
-            title={'Money Exchange'}
+            title={'Exchange Rate App'}
             image={imageMoney}
-            alt={'Money Exchange App demo'}
+            alt={'Exchange Rate App demo'}
             description={'In this project I created Exchange Rate App, that calculate exchange rate between world curriencies. I used ExchangeRate-API, which support all 161 commonly circulating world currencies.'}
             area={'card4'}
             link={'https://exchangemoneyapp.netlify.app/'}
