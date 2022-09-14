@@ -22,14 +22,13 @@ function App() {
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>Filip Stawicki</title>
-          <link rel="icon" type="image/png" sizes="16x16"  href="favicon.ico" />
+          <link rel="icon" type="image/x-icon" sizes="16x16"  href="favicon.ico" />
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="theme-color" content="#ffffff" />
           <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
           </style>
         </Helmet>
-
         <HeroPage/>
         <About />
         <Jobs />
