@@ -14,9 +14,6 @@ export const StyledCard = styled.div`
     border-bottom: 1px solid white;
     border-radius: 3%;
     background-color: white;
-    /*
-    rgba(0, 0, 0, 0.45)
-    */
 
     transition: transform 300ms;
 
@@ -52,6 +49,7 @@ export const StyledCard = styled.div`
     .title{
         font-size: 1.5rem;
         letter-spacing: 0.1px;
+        text-align: center;
         font-weight: bold;
         color: ${({theme}) => theme.accent};
 
@@ -76,16 +74,6 @@ export const StyledCard = styled.div`
     a{
         padding: 1rem;
     }
-
-    /* a{
-        text-decoration: none;
-        color: ${({theme}) => theme.accent};
-    }
-
-    a:hover{
-        text-decoration: underline;
-    } */
-
         
     .projectImage{
         width: 100%;

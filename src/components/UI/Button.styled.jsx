@@ -2,39 +2,43 @@ import styled from "styled-components";
 
 export const StyledButton = styled.button`
 
-    border: none;
-    background-color: transparent;
-    display: block;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        text-decoration: none;
 
-a{
-    display: block;
-    text-decoration: none;
-    padding: ${props => props.padding};
-    padding: 1.5rem;
-    font-size: 1.2rem;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    border: 1px solid ${ ({theme}) => theme.accent };
-    border-radius: 4%;
-    background-color: transparent;
+        margin-top: 3rem;
 
-    margin-top: 2rem;
-    margin: ${props => props.margin};
+        padding: 1.5rem;
+        background-color: transparent;
+        border: 1px solid ${({ theme }) => theme.accent};
+        border-radius: 5%;
 
-    transition: 0.3s ease;
-    color: white;
+        transition: 0.3s ease;
 
-    :hover{
-        background-color: ${({ theme }) => theme.accent};
-    }
-}
+        :hover{
+            background-color: ${({ theme }) => theme.accent};
+            cursor: pointer;
+        }
 
-@media (max-width: 400px){
-    a{
-        padding: 1rem;
-        font-size: 1rem;
-    }
-}
+        :active{
+            text-decoration: none;
+            background-color: transparent;
+            border: 1px solid ${({ theme }) => theme.accent}; ;
+        }
 
+        @media (max-width: 500px){
+            margin-top: 1rem;
+            padding: 1.2rem;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 400px){
+            margin-top: 1rem;
+            padding: 1.2rem;
+            font-size: 1rem;
+        }
 
 
 `
