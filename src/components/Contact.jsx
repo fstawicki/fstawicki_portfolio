@@ -16,6 +16,30 @@ const Contact = () => {
     scroll.scrollToTop();
   }
 
+  const downloadENGCV = () => {
+    fetch('STAWICKI_FILIP_CV_ENG.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'STAWICKI_FILIP_CV_ENG.pdf.pdf';
+            alink.click();
+        })
+    })
+}
+
+const downloadPLCV = () => {
+  fetch('STAWICKI_FILIP_CV.pdf').then(response => {
+      response.blob().then(blob => {
+          const fileURL = window.URL.createObjectURL(blob);
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'STAWICKI_FILIP_CV.pdf.pdf';
+          alink.click();
+      })
+  })
+}
+
   return (
     <StyledContact>
       <h3 className='color-white' name='contact' id='contact'>Get in touch!</h3>
@@ -40,9 +64,9 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-        <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV ENG'} margin={'3rem 0 0 0'} />
-        <Button link={'../assets/CV/STAWICKI_FILIP_CV.pdf'} download={true} buttonText={'Download CV PL'} margin={'3rem 0 0 0'} />
-        <button className='btnToTop' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
+        <button className='btn' onClick={downloadENGCV}>Download ENG CV</button>
+        <button className='btn' onClick={downloadPLCV}>Download PL CV</button>
+        <button className='btn' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
       </div>
       <img className='footerwave' role='presentation' src={bottomwave} alt="" />
     </StyledContact>

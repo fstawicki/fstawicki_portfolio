@@ -11,9 +11,6 @@ export const StyledHeroPage = styled.div`
 
     position: relative;
 
-    .btnMarginLeft a{
-        margin-left: 2rem;
-    }
 
     .container{
         z-index: 444;
@@ -65,6 +62,10 @@ export const StyledHeroPage = styled.div`
                 background: ${ ({theme}) => theme.accent };
             }
 
+            @media (max-width: 400px){
+                margin-top: 3rem;
+            }
+
         }
 
         h1{
@@ -74,6 +75,12 @@ export const StyledHeroPage = styled.div`
             @media (max-width: 650px){
                 font-size: 3rem;
             }
+
+            @media (max-width: 400px){
+                font-size: 2rem;
+            }
+
+
         }
         
         p{
@@ -82,6 +89,10 @@ export const StyledHeroPage = styled.div`
 
             @media (max-width: 650px){
                 font-size: 1.8rem;
+            }
+
+            @media (max-width: 400px){
+                font-size: 0.5rem;
             }
         }
 
@@ -109,6 +120,11 @@ export const StyledHeroPage = styled.div`
         
     }
 
+    
+    a{
+        margin-right: 1rem;
+    }
+
 
     @media (max-height: 1000px) {
 
@@ -134,9 +150,15 @@ export const StyledHeroPage = styled.div`
             justify-content: center;
             align-items: flex-start;
         }
+
+        a{
+            padding: 1rem;
+            font-size: 1.1rem;
+        }
     }
+
     
-    a{
+    /* a{
         display: block;
         text-decoration: none;
         padding: ${props => props.padding};
@@ -155,13 +177,48 @@ export const StyledHeroPage = styled.div`
             background-color: ${({ theme }) => theme.accent};
             cursor: pointer;
         }
-}
+} */
 
     @media (max-width: 400px){
-        a{
-            padding: 1rem;
-            font-size: 1rem;
-        }
+
     }
+
+
+    .btn{
+
+        font-size: 1.2rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+
+        margin-top: 3rem;
+
+        padding: 1.5rem;
+        background-color: transparent;
+        border: 1px solid ${({ theme }) => theme.accent};
+        border-radius: 5%;
+
+        transition: 0.3s ease;
+
+        :hover{
+            background-color: ${({ theme }) => theme.accent};
+            cursor: pointer;
+        }
+
+        :active{
+            text-decoration: none;
+            background-color: transparent;
+            border: 1px solid ${({ theme }) => theme.accent}; ;
+        }
+
+        @media (max-width: 400px){
+            margin-top: 1rem;
+            padding: 1.2rem;
+            font-size: 1.1rem;
+        }
+
+    }
+
 
 `

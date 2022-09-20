@@ -8,6 +8,20 @@ import { Link } from 'react-scroll'
 import wave from '../assets/waves/wave.svg';
 
 const HeroPage = () => {
+
+  const downloadENGCV = () => {
+    fetch('STAWICKI_FILIP_CV_ENG.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'STAWICKI_FILIP_CV_ENG.pdf.pdf';
+            alink.click();
+        })
+    })
+}
+
+
   return (
       <StyledHeroPage>
         <div className="container">
@@ -18,7 +32,7 @@ const HeroPage = () => {
           </div>
           <div className="buttons">
             <Link 
-              className='scrolllink'
+              className='btn'
               to="contact" 
               spy={true} 
               smooth={true} 
@@ -26,7 +40,7 @@ const HeroPage = () => {
               duration={800}>
                 Contact Me
             </Link>
-            <Button link={'../assets/CV/STAWICKI_FILIP_CV_ENG.pdf'} download={true} buttonText={'Download CV'} />
+            <button className='btn' onClick={downloadENGCV}>Download ENG CV</button>
           </div>
         </div>
         <img className='waveIMG' src={wave} role="presentation" alt=""/>

@@ -117,7 +117,7 @@ h3{
 }
 
 
-    .btnToTop{
+    .btn{
 
         font-size: 1.2rem;
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
