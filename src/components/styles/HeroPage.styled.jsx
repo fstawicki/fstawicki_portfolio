@@ -76,11 +76,6 @@ export const StyledHeroPage = styled.div`
                 font-size: 3rem;
             }
 
-            @media (max-width: 400px){
-                font-size: 2rem;
-            }
-
-
         }
         
         p{
@@ -144,7 +139,28 @@ export const StyledHeroPage = styled.div`
         }
     }
 
-    @media (max-width: 400px){
+
+    @media (max-height: 1000px) and (max-width: 400px) {
+
+        .introText{
+            h1{
+                font-size: 2.5rem;
+            }
+
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .accent{
+                font-size: 1.5rem;
+                margin-top: 0;
+            }
+        }
+
+}
+
+    @media (max-width: 500px){
         .buttons{
             flex-direction: column;
             justify-content: center;
@@ -155,6 +171,7 @@ export const StyledHeroPage = styled.div`
             padding: 1rem;
             font-size: 1.1rem;
         }
+
     }
 
     
@@ -178,11 +195,6 @@ export const StyledHeroPage = styled.div`
             cursor: pointer;
         }
 } */
-
-    @media (max-width: 400px){
-
-    }
-
 
     .btn{
 
@@ -212,11 +224,19 @@ export const StyledHeroPage = styled.div`
             border: 1px solid ${({ theme }) => theme.accent}; ;
         }
 
+        @media (max-width: 500px){
+            margin-top: 1rem;
+            padding: 1.2rem;
+            font-size: 1rem;
+        }
+
         @media (max-width: 400px){
             margin-top: 1rem;
             padding: 1.2rem;
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
+
+
 
     }
 
