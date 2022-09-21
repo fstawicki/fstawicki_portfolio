@@ -59,7 +59,7 @@ export const StyledCard = styled.div`
     .description{
         padding: 0 1rem 1rem 1rem;
 
-        text-align: left;
+        text-align: center;
         color: ${({theme}) => theme.greytext};;
 
     }
@@ -71,9 +71,7 @@ export const StyledCard = styled.div`
         align-items: center;
     }
 
-    a{
-        padding: 1rem;
-    }
+
         
     .projectImage{
         width: 100%;
@@ -86,12 +84,26 @@ export const StyledCard = styled.div`
     }
 
     a{
-        background-color: ${({theme}) => theme.accent};
+        font-size: 1.1rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        text-decoration: none;
 
+        margin: 1rem 0;
+
+        padding: 1.2rem;
+        background-color: ${({ theme }) => theme.accent};
+        border: 1px solid ${({ theme }) => theme.accent};
+        border-radius: 5%;
+
+        transition: 0.3s ease;
+        
         :hover{
             background-color: ${({theme}) => theme.bluewave};
             border-color: ${({theme}) => theme.bluewave};
         }
+
     }
 
 

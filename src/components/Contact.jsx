@@ -16,30 +16,6 @@ const Contact = () => {
     scroll.scrollToTop();
   }
 
-  const downloadENGCV = () => {
-    fetch('STAWICKI_FILIP_CV_ENG.pdf').then(response => {
-        response.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'STAWICKI_FILIP_CV_ENG.pdf.pdf';
-            alink.click();
-        })
-    })
-}
-
-const downloadPLCV = () => {
-  fetch('STAWICKI_FILIP_CV.pdf').then(response => {
-      response.blob().then(blob => {
-          const fileURL = window.URL.createObjectURL(blob);
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = 'STAWICKI_FILIP_CV.pdf.pdf';
-          alink.click();
-      })
-  })
-}
-
   return (
     <StyledContact>
       <h3 className='color-white' name='contact' id='contact'>Get in touch!</h3>
@@ -64,8 +40,8 @@ const downloadPLCV = () => {
             </ul>
           </div>
         </div>
-        <button className='btn' onClick={downloadENGCV}>Download ENG CV</button>
-        <button className='btn' onClick={downloadPLCV}>Download PL CV</button>
+        <Button buttonText={'Download ENG CV'} pdf={'STAWICKI_FILIP_CV_ENG.pdf'} />
+        <Button buttonText={'Download PL CV'} pdf={'STAWICKI_FILIP_CV.pdf'} />
         <button className='btn' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
       </div>
       <img className='footerwave' role='presentation' src={bottomwave} alt="" />

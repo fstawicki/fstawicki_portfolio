@@ -2,25 +2,11 @@ import React from 'react';
 import { StyledHeroPage } from './styles/HeroPage.styled';
 import Button from './UI/Button';
 
-import { Link } from 'react-scroll'
-
+import { Link } from 'react-scroll';
 
 import wave from '../assets/waves/wave.svg';
 
 const HeroPage = () => {
-
-  const downloadENGCV = () => {
-    fetch('STAWICKI_FILIP_CV_ENG.pdf').then(response => {
-        response.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'STAWICKI_FILIP_CV_ENG.pdf.pdf';
-            alink.click();
-        })
-    })
-}
-
 
   return (
       <StyledHeroPage>
@@ -40,7 +26,7 @@ const HeroPage = () => {
               duration={800}>
                 Contact Me
             </Link>
-            <button className='btn' onClick={downloadENGCV}>Download ENG CV</button>
+            <Button buttonText={'Download ENG CV'} pdf={'STAWICKI_FILIP_CV_ENG.pdf'} />
           </div>
         </div>
         <img className='waveIMG' src={wave} role="presentation" alt=""/>
