@@ -5,6 +5,9 @@ const Skills = () => {
   return (
     <StyledSkills>
         <h3 className='PageTitle'>Skills:</h3>
+        <div className="grid">
+            
+        </div>
 
     </StyledSkills>
   )
