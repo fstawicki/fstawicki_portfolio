@@ -6,6 +6,23 @@ export const StyledSkills = styled.div`
     background-color: ${({theme}) => theme.bgcolor};
     color: white;
 
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillsGrid{
+
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        grid-gap: 50px;
+
+        @media (max-width: 750px){
+            grid-template-columns: 150px 150px;
+        }
+    }
+
     *{
         ::-moz-selection { /* Code for Firefox */
             color: white;
