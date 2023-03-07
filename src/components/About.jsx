@@ -7,7 +7,7 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="infoText">
-        <h2 className="aboutme">About Me:</h2>
+        <h3 className="aboutme">About Me:</h3>
         <p>I graduated from engineering studies in Computer Science at the Faculty of Applied Informatics and Mathematics at the Warsaw University of Life Sciences. Currently, I am continuing my studies in order to earn a master's degree. I have been working as an IT specialist for 3 years. My professional goal is to work as a Front-end Developer. I am interested in React, in which I am constantly improving.</p>
         <p className='whitecolor'>Here are technologies and tools I have worked with before:</p>
         <div className="technologies">

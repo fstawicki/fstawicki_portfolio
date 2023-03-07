@@ -19,6 +19,11 @@ body{
   background-color: '#0c1c2c';
 }
 
+h3{
+    font-size: 3rem;
+    color: white;
+}
+
 `
 
 export default GlobalStyles;
