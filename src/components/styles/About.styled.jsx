@@ -37,7 +37,7 @@ export const StyledAbout = styled.div`
     .infoText{
         width: 50%;
 
-        h2{
+        h3{
             color: white;
             font-size: 3rem;
             margin-bottom: 2rem;

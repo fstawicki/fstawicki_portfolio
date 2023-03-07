@@ -19,6 +19,7 @@ body{
   background-color: '#0c1c2c';
 }
 
+
 `
 
 export default GlobalStyles;

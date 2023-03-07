@@ -8,6 +8,8 @@ import { Helmet } from 'react-helmet';
 
 import HeroPage from "./components/HeroPage";
 import About from "./components/About";
+import Jobs from "./components/Jobs";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
@@ -31,6 +33,7 @@ function App() {
         <HeroPage/>
         <About />
         <Jobs />
+        <Skills />
         <Projects />
         <Contact />
       </div>
