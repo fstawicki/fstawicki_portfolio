@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const StyledCard = styled.div`
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: ${props => props.area};
+
     justify-self: center;
 
     display: block;
@@ -26,17 +31,9 @@ export const StyledCard = styled.div`
 
     :hover{
         transform: scale(1.03);
-    }
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    :hover{
         cursor: pointer;
     }
 
-    grid-area: ${props => props.area};
 
 
     .wrapper{
@@ -44,7 +41,6 @@ export const StyledCard = styled.div`
         flex-direction: column;
         align-items: center;
     }
-
 
     .title{
         font-size: 1.5rem;
@@ -64,15 +60,12 @@ export const StyledCard = styled.div`
 
     }
 
-
     .links{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
 
-
-        
     .projectImage{
         width: 100%;
         height: 210px;

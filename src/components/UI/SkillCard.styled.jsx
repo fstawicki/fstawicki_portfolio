@@ -8,6 +8,14 @@ export const SkillCardStyled = styled.div`
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
+        transition: 0;
+        transition: 0.3s ease;
+
+        &:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
     }
 
     p{
@@ -16,6 +24,8 @@ export const SkillCardStyled = styled.div`
         text-align: center;
         padding-top: 1rem;
     }
+
+    
     
 
 
