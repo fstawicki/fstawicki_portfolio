@@ -9,7 +9,8 @@ export const SkillCardStyled = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
         transition: transform 300ms;
-    
+
+            
         :hover{
             transform: scale(1.15);
         }
