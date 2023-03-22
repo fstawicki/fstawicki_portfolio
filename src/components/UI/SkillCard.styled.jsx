@@ -23,6 +23,8 @@ export const SkillCardStyled = styled.div`
         text-align: center;
         padding-top: 1rem;
     }
+
+    
     
 
 
