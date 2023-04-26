@@ -50,6 +50,7 @@ export const StyledAbout = styled.div`
 
         p{
             margin-bottom: 1rem;
+            text-align: justify;
             font-size: 1.2rem;
 
             @media (max-width:450px){

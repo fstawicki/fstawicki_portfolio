@@ -55,7 +55,7 @@ export const StyledCard = styled.div`
     .description{
         padding: 0 1rem 1rem 1rem;
 
-        text-align: center;
+        text-align: justify;
         color: ${({theme}) => theme.greytext};;
 
     }
