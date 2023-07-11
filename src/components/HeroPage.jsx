@@ -27,6 +27,7 @@ const HeroPage = () => {
                 Contact Me
             </Link>
             <Button buttonText={'Download ENG CV'} pdf={'STAWICKI_FILIP_CV_ENG.pdf'} />
+            <Button buttonText={'Download PL CV'} pdf={'STAWICKI_FILIP_CV_PL.pdf'} />
           </div>
         </div>
         <img className='waveIMG' src={wave} role="presentation" alt=""/>

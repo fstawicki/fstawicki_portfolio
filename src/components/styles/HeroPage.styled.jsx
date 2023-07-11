@@ -113,6 +113,11 @@ export const StyledHeroPage = styled.div`
 
         display: flex;
         
+        
+    }
+
+    button{
+        margin-right: 0.5rem;
     }
 
     
@@ -205,6 +210,8 @@ export const StyledHeroPage = styled.div`
         text-decoration: none;
 
         margin-top: 3rem;
+
+        margin-right: 0.5rem;
 
         padding: 1.5rem;
         background-color: transparent;

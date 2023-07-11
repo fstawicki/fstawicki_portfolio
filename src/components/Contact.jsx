@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
         </div>
         <Button buttonText={'Download ENG CV'} pdf={'STAWICKI_FILIP_CV_ENG.pdf'} />
-        <Button buttonText={'Download PL CV'} pdf={'STAWICKI_FILIP_CV.pdf'} />
+        <Button buttonText={'Download PL CV'} pdf={'STAWICKI_FILIP_CV_PL.pdf'} />
         <button className='btn' onClick={scrollToTop}><FaRegArrowAltCircleUp /> Scroll to top</button>
       </div>
       <img className='footerwave' role='presentation' src={bottomwave} alt="" />

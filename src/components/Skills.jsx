@@ -12,7 +12,6 @@ import componentsLogo from '../assets/images/logos/styledcomponents.png';
 import typescriptLogo from '../assets/images/logos/Typescriptlogo.png';
 import jsLogo from '../assets/images/logos/javascript.png';
 import reactLogo from '../assets/images/logos/React.png';
-import reduxLogo from '../assets/images/logos/redux.png';
 import gitLogo from '../assets/images/logos/git.png';
 import vscodeLogo from '../assets/images/logos/vscode.png';
 
@@ -29,7 +28,6 @@ const Skills = () => {
                 <SkillCard logoSRC={sassLogo} altName={'SASS logo'} skillName={'SASS'}/>
                 <SkillCard logoSRC={componentsLogo} altName={'Styled Components logo'} skillName={'STYLED COMPONENTS'}/>
                 <SkillCard logoSRC={reactLogo} altName={'React logo'} skillName={'REACT'}/>
-                <SkillCard logoSRC={reduxLogo} altName={'Redux logo'} skillName={'REDUX'}/>
                 <SkillCard logoSRC={typescriptLogo} altName={'TypeScript logo'} skillName={'TYPESCRIPT'}/>
                 <SkillCard logoSRC={gitLogo} altName={'Git logo'} skillName={'GIT'}/>
                 <SkillCard logoSRC={vscodeLogo} altName={'VsCode logo'} skillName={'VISUAL STUDIO CODE'}/>
