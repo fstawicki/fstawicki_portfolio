@@ -15,7 +15,7 @@ import jsLogo from '../assets/images/logos/javascript.png';
 import reactLogo from '../assets/images/logos/React.png';
 import gitLogo from '../assets/images/logos/git.png';
 import vscodeLogo from '../assets/images/logos/vscode.png';
-import trelloLogo from '../assets/images/logos/trellologo.png';
+import winserverLogo from '../assets/images/logos/winserver.png';
 
 const Skills = () => {
   return (
@@ -34,7 +34,7 @@ const Skills = () => {
                 <SkillCard logoSRC={typescriptLogo} altName={'TypeScript logo'} skillName={'TYPESCRIPT'}/>
                 <SkillCard logoSRC={gitLogo} altName={'Git logo'} skillName={'GIT'}/>
                 <SkillCard logoSRC={vscodeLogo} altName={'VsCode logo'} skillName={'VISUAL STUDIO CODE'}/>
-                <SkillCard logoSRC={trelloLogo} altName={'Trello'} skillName={'TRELLO'}/>
+                <SkillCard logoSRC={winserverLogo} altName={'windows server logo'} skillName={'WINDOWS SERVER & ACTIVE DIRECTORY'}/>
             </div>
         </div>
     </StyledSkills>

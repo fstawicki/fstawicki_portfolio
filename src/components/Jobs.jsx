@@ -15,27 +15,29 @@ const Jobs = () => {
             <li className='jobsListItem'>
               <p className="date red">01.01.2021 - in progress</p>
               <p className="name red">CIRF - IT center of the Ministry of Finance</p>
-              <p className="position red">IT Specialist</p>
+              <p className="position red">IT System Administrator</p>
               <p className="tasks">Main Tasks:</p>
               <ul className="tasks_list">
                 <li><FiChevronRight /> IT network administration;</li>
                 <li><FiChevronRight /> Administration of Active Directory services;</li>
-                <li><FiChevronRight /> Creating servers' backups,</li>
-                <li><FiChevronRight /> Helpdesk - assistance to end users;</li>
+                <li><FiChevronRight /> Performing backups on servers, restoring data from backup;</li>
+                <li><FiChevronRight /> Providing technical support to end users;</li>
                 <li><FiChevronRight /> Managing computer equipment in the unit and placing IT orders;</li>
-                <li><FiChevronRight /> Granting permissions to local applications.</li>
+                <li><FiChevronRight /> Granting permissions to local applications;</li>
               </ul>
             </li>
             <li className='jobsListItem'>
               <p className="date red">01.04.2019 - 01.01.2021</p>
               <p className="name red">Chamber of Tax Administration in Warsaw</p>
-              <p className="position red">Junior IT Specialist</p>
+              <p className="position red">IT System Administrator</p>
               <p className="tasks">Main Tasks:</p>
               <ul className="tasks_list">
+                <li><FiChevronRight /> IT network administration;</li>
                 <li><FiChevronRight /> Administration of Active Directory services;</li>
-                <li><FiChevronRight /> Helpdesk - assistance to end users;</li>
+                <li><FiChevronRight /> Performing backups on servers, restoring data from backup;</li>
+                <li><FiChevronRight /> Providing technical support to end users;</li>
                 <li><FiChevronRight /> Managing computer equipment in the unit and placing IT orders;</li>
-                <li><FiChevronRight /> Granting permissions to local applications.</li>
+                <li><FiChevronRight /> Granting permissions to local applications;</li>
               </ul>
             </li>
             <li className='jobsListItem'>
@@ -58,7 +60,7 @@ const Jobs = () => {
               <p className="date red">2021 - 2023</p>
               <p className="uni red ">SGGW Warsaw University of Life Sciences</p>
               <p><FiChevronRight /> Computer Science</p>
-              <p><FiChevronRight /> Obtained Title: Master's Degree</p>
+              <p><FiChevronRight /> Obtained Title: Master</p>
             </li>
             <li className='jobsListItem'>
               <p className="date red">2017 - 2021</p>
